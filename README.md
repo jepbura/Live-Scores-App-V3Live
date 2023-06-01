@@ -9,6 +9,10 @@ This is a mobile application that provides live football and volleyball scores f
 - Get live football scores on your smartwatch
 - Get live volleyball scores on your smartwatch
 
+## Demo Web App
+
+[v3live.bura.dev](https://v3live.bura.dev)
+
 ## Note
 
 If you want to access the web version of the app, visit [v3live.bura.dev](https://v3live.bura.dev). Please make sure to install a CORS unblock extension for your browser to resolve any cross-origin issues. You can use the following extensions:
