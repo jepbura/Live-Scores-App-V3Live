@@ -9,6 +9,10 @@ This mobile application provides live football and volleyball scores for smartwa
 - Live football scores on your smartwatch
 - Live volleyball scores on your smartwatch
 
+## Download Page
+
+[Download](https://github.com/jepbura/Live-Scores-App-V3Live/releases) link for your smartwatch.
+
 ## Web App Demo
 
 You can access the web version of the app at [v3live.bura.dev](https://v3live.bura.dev)
