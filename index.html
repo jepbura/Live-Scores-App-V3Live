@@ -38,43 +38,33 @@
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
-
   <style>
-    body {
+    html, body {
+      height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      margin: 0;
-      padding: 0;
     }
 
-    .container {
+    body {
       width: 250px;
-      height: 250px;
-      border: 1px solid black;
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <script>
-      window.addEventListener('load', function(ev) {
-        // Download main.dart.js
-        _flutter.loader.loadEntrypoint({
-          serviceWorker: {
-            serviceWorkerVersion: serviceWorkerVersion,
-          }
-        }).then(function(engineInitializer) {
-          return engineInitializer.initializeEngine();
-        }).then(function(appRunner) {
-          return appRunner.runApp();
-        });
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
       });
-    </script>
-  </div>
+    });
+  </script>
 </body>
 </html>
