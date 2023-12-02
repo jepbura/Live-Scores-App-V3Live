@@ -1,6 +1,12 @@
-# Live Scores App / V3Live
+<br>
 
-![v3l](https://s3.ir-thr-at1.arvanstorage.ir/jepbura/v3l.gif)
+<h1 align="center">
+  Live Scores App / V3Live
+</h1>
+
+<p align="center"><img src="[/assets/images/unfollow.png](https://s3.ir-thr-at1.arvanstorage.ir/jepbura/v3l.gif)" alt="E2F" width="25%"/></p>
+
+## What is V3Live?
 
 This application provides live football and volleyball scores for smartwatches such as Wear OS and Galaxy Watch. It was an enjoyable project for me, where I retrieved all the backend data from the [varzesh3](https://www.varzesh3.com/livescore) .
 
