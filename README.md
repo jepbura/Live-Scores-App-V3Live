@@ -4,7 +4,7 @@
   Live Scores App / V3Live
 </h1>
 
-<p align="center"><img src="[/assets/images/unfollow.png](https://s3.ir-thr-at1.arvanstorage.ir/jepbura/v3l.gif)" alt="E2F" width="25%"/></p>
+<p align="center"><img src="https://s3.ir-thr-at1.arvanstorage.ir/jepbura/v3l.gif" alt="E2F" width="25%"/></p>
 
 ## What is V3Live?
 
