@@ -1,0 +1,130 @@
+name: v3l
+description: Varzesh3 live score.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.2
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+#any
+dependencies:
+  flutter:
+    sdk: flutter
+  #Wear os
+  wear: ^1.1.0
+  #Localizations
+  flutter_localizations:
+    sdk: flutter
+  # Use for Time/Date Format
+  intl: ^0.18.0
+  #Tools
+  cupertino_icons: ^1.0.2
+  package_info_plus: ^4.0.2
+  # Use for State Management with BLoC pattern
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  #UI
+  cached_network_image: ^3.2.2
+  smooth_page_indicator: ^1.0.0+2
+  #  flutter_svg: ^1.0.3
+  #  cached_network_image: ^3.2.1
+  #  table_calendar: ^3.0.6
+  # Date
+  shamsi_date: ^1.0.1
+  #Splash
+  rive: ^0.11.2
+  #Code Generation
+  freezed_annotation: ^2.0.3
+  json_annotation: ^4.5.0
+  # Service locator
+  injectable: ^2.1.2
+  get_it: ^7.2.0
+  #Logger
+  logging: ^1.0.2
+  #Object Storage
+  #  minio: ^3.5.0
+  # Local cache
+  shared_preferences: ^2.0.15
+  #Operating System Type
+  #  universal_platform: ^1.0.0+1
+  # Functional programming thingies
+  dartz: ^0.10.1
+  # Remote API
+  # graphql: ^5.1.1
+  # http: ^0.13.0
+  dio: ^5.1.2
+  #Discover Network Connectivity
+  #  connectivity_plus: ^2.3.7
+  #Url # remover
+  #  url_strategy: ^0.2.0
+  # Use for custom toast with Status, ex : Loading,Success,Failed
+  oktoast: ^3.2.0
+  # Use for responsive UI, set default size base on Mock Up
+  flutter_screenutil: ^5.5.3+2
+  # logger
+  logger: ^1.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.4
+  injectable_generator: ^2.1.6
+  freezed: ^2.0.4
+  dart_code_metrics: ^5.7.4
+  lint: ^2.1.2
+  bloc_test: ^9.0.3
+  http_mock_adapter: ^0.4.4
+  mockito: ^5.4.1
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "path/to/image.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "path/to/image.png"
+    icon_size: 48 # min:48, max:256, default: 48
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/riv/
+    - assets/fonts/
+    - assets/fonts/vazir/
+    - assets/icons/
+    - assets/images/
+    - assets/svg/
+  fonts:
+    - family: En
+      fonts:
+        - asset: assets/fonts/ariblk.ttf
+    - family: Vazir
+      fonts:
+        - asset: assets/fonts/vazir/vazir.ttf
+        - asset: assets/fonts/vazir/vazirBlack.ttf
+        - asset: assets/fonts/vazir/vazirBold.ttf
+        - asset: assets/fonts/vazir/vazirLight.ttf
+        - asset: assets/fonts/vazir/vazirMedium.ttf
+    - family: Iran
+      fonts:
+        - asset: assets/fonts/IRANSans.ttf
+        - asset: assets/fonts/IRANSans_Black.ttf
+        - asset: assets/fonts/IRANSans_Bold.ttf
+        - asset: assets/fonts/IRANSans_Light.ttf
+        - asset: assets/fonts/IRANSans_Medium.ttf
+        - asset: assets/fonts/IRANSans_UltraLight.ttf
+

@@ -1,0 +1,299 @@
+{
+  "leagues": [
+    {
+      "id": 52,
+      "logo": "https://static.farakav.com/files/pictures/01381337.png",
+      "title": "دوستانه",
+      "sport": 1,
+      "link": null,
+      "dates": [
+        {
+          "date": "1401/07/02",
+          "matchIds": [
+            "football-98796",
+            "football-325854",
+            "football-325924"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "logo": "https://match-cdn.varzesh3.com/volleyball-league/2022/08/09/B/03qxa4kx.png",
+      "title": "والیبال",
+      "sport": 3,
+      "link": "/volleyball/league/104/والیبال-قهرمانی-جهان",
+      "dates": [
+        {
+          "date": "1401/06/31",
+          "matchIds": [
+            "volleyball-104624"
+          ]
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "sport": 1,
+      "hostGoals": "3",
+      "guestGoals": "0",
+      "guestPoint": "",
+      "hostPoint": "",
+      "liveTime": null,
+      "hostLogo": null,
+      "guestLogo": null,
+      "hasPenalty": false,
+      "scheduledStartDate": " 9 خرداد 1402",
+      "scheduledStartTime": "20:30",
+      "predictionLink": null,
+      "predictionUrl": null,
+      "round": 36,
+      "penaltyGoals": null,
+      "matchGoals": {
+        "host": 3,
+        "guest": 0
+      },
+      "videoId": null,
+      "referee": null,
+      "id": 98796,
+      "title": null,
+      "sportId": "football-98796",
+      "hostName": "آرژانتین",
+      "hostLink": null,
+      "guestName": "هندوراس",
+      "guestLink": null,
+      "hostId": 354,
+      "guestId": 456,
+      "status": 7,
+      "statusDescription": null,
+      "statusTitle": "نتیجه نهایی",
+      "isLive": false,
+      "time": "03:30",
+      "hasEvents": true,
+      "liveStreamSource": "",
+      "videoLink": "https://video.varzesh3.com/video/260884/",
+      "matchPageLink": "/football/match/98796/بازی-آرژانتین-هندوراس",
+      "matchApi": "https://livescore-api.varzesh3.com/v1.0/football/matches/98796",
+      "eventsApi": "https://livescore-api.varzesh3.com/v1.0/football/matches/98796/events",
+      "scheduledStartOn": "2022-09-24T00:00:00Z",
+      "stadium": null,
+      "setPoints1": {
+        "host": 0,
+        "guest": 0
+      },
+      "setPoints2": {
+        "host": 0,
+        "guest": 0
+      },
+      "setPoints3": {
+        "host": 0,
+        "guest": 0
+      },
+      "setPoints4": {
+        "host": 0,
+        "guest": 0
+      },
+      "setPoints5": {
+        "host": 0,
+        "guest": 0
+      }
+    },
+    {
+      "sport": 1,
+      "hostGoals": "3",
+      "guestGoals": "0",
+      "guestPoint": "",
+      "hostPoint": "",
+      "liveTime": null,
+      "hostLogo": null,
+      "guestLogo": null,
+      "hasPenalty": false,
+      "scheduledStartDate": " 9 خرداد 1402",
+      "scheduledStartTime": "20:30",
+      "predictionLink": null,
+      "predictionUrl": null,
+      "round": 36,
+      "penaltyGoals": null,
+      "matchGoals": {
+        "host": 3,
+        "guest": 0
+      },
+      "videoId": null,
+      "referee": null,
+      "id": 325854,
+      "title": null,
+      "sportId": "football-325854",
+      "hostName": "استرالیا",
+      "hostLink": null,
+      "guestName": "نیوزیلند",
+      "guestLink": null,
+      "hostId": 354,
+      "guestId": 456,
+      "status": 7,
+      "statusDescription": null,
+      "statusTitle": "نتیجه نهایی",
+      "isLive": false,
+      "time": "03:30",
+      "hasEvents": true,
+      "liveStreamSource": "",
+      "videoLink": "https://video.varzesh3.com/video/260884/",
+      "matchPageLink": "/football/match/325854/بازی-استرالیا-نیوزیلند",
+      "matchApi": "https://livescore-api.varzesh3.com/v1.0/football/matches/325854",
+      "eventsApi": "https://livescore-api.varzesh3.com/v1.0/football/matches/325854/events",
+      "scheduledStartOn": "2022-09-24T00:00:00Z",
+      "stadium": null,
+      "setPoints1": {
+        "host": 0,
+        "guest": 0
+      },
+      "setPoints2": {
+        "host": 0,
+        "guest": 0
+      },
+      "setPoints3": {
+        "host": 0,
+        "guest": 0
+      },
+      "setPoints4": {
+        "host": 0,
+        "guest": 0
+      },
+      "setPoints5": {
+        "host": 0,
+        "guest": 0
+      }
+    },
+    {
+      "sport": 1,
+      "hostGoals": "3",
+      "guestGoals": "0",
+      "guestPoint": "",
+      "hostPoint": "",
+      "liveTime": null,
+      "hostLogo": null,
+      "guestLogo": null,
+      "hasPenalty": false,
+      "scheduledStartDate": " 9 خرداد 1402",
+      "scheduledStartTime": "20:30",
+      "predictionLink": null,
+      "predictionUrl": null,
+      "round": 36,
+      "penaltyGoals": null,
+      "matchGoals": {
+        "host": 3,
+        "guest": 0
+      },
+      "videoId": null,
+      "referee": null,
+      "id": 325924,
+      "title": null,
+      "sportId": "football-325924",
+      "hostName": "نورنبرگ",
+      "hostLink": null,
+      "guestName": "سنت گالن",
+      "guestLink": null,
+      "hostId": 354,
+      "guestId": 456,
+      "status": 7,
+      "statusDescription": null,
+      "statusTitle": "نتیجه نهایی",
+      "isLive": false,
+      "time": "03:30",
+      "hasEvents": true,
+      "liveStreamSource": "",
+      "videoLink": "https://video.varzesh3.com/video/260884/",
+      "matchPageLink": "/football/match/325924/بازی-نورنبرگ-سنت-گالن",
+      "matchApi": "https://livescore-api.varzesh3.com/v1.0/football/matches/325924",
+      "eventsApi": "https://livescore-api.varzesh3.com/v1.0/football/matches/325924/events",
+      "scheduledStartOn": "2022-09-24T00:00:00Z",
+      "stadium": null,
+      "setPoints1": {
+        "host": 0,
+        "guest": 0
+      },
+      "setPoints2": {
+        "host": 0,
+        "guest": 0
+      },
+      "setPoints3": {
+        "host": 0,
+        "guest": 0
+      },
+      "setPoints4": {
+        "host": 0,
+        "guest": 0
+      },
+      "setPoints5": {
+        "host": 0,
+        "guest": 0
+      }
+    },
+    {
+      "sport": 3,
+      "hostGoals": "3",
+      "guestGoals": "0",
+      "guestPoint": "",
+      "hostPoint": "",
+      "liveTime": null,
+      "hostLogo": null,
+      "guestLogo": null,
+      "hasPenalty": false,
+      "scheduledStartDate": " 9 خرداد 1402",
+      "scheduledStartTime": "20:30",
+      "predictionLink": null,
+      "predictionUrl": null,
+      "round": 36,
+      "penaltyGoals": null,
+      "matchGoals": {
+        "host": 3,
+        "guest": 0
+      },
+      "videoId": null,
+      "referee": null,
+      "id": 104624,
+      "title": null,
+      "sportId": "volleyball-104624",
+      "hostName": "آرژانتین",
+      "hostLink": null,
+      "guestName": "هندوراس",
+      "guestLink": null,
+      "hostId": 354,
+      "guestId": 456,
+      "status": 7,
+      "statusDescription": null,
+      "statusTitle": "نتیجه نهایی",
+      "isLive": false,
+      "time": "03:30",
+      "hasEvents": true,
+      "liveStreamSource": "",
+      "videoLink": "https://video.varzesh3.com/video/260091/",
+      "matchPageLink": "/volleyball/match/104624/رده-بندی-قهرمانی-جهان-2022",
+      "matchApi": "https://livescore-api.varzesh3.com/v1.0/basketball/matches/104624",
+      "eventsApi": "https://livescore-api.varzesh3.com/v1.0/football/matches/104624/events",
+      "scheduledStartOn": "2022-09-24T00:00:00Z",
+      "stadium": null,
+      "setPoints1": {
+        "host": 25,
+        "guest": 18
+      },
+      "setPoints2": {
+        "host": 25,
+        "guest": 18
+      },
+      "setPoints3": {
+        "host": 22,
+        "guest": 25
+      },
+      "setPoints4": {
+        "host": 25,
+        "guest": 18
+      },
+      "setPoints5": {
+        "host": 25,
+        "guest": 18
+      }
+    }
+  ],
+  "standings": []
+}
