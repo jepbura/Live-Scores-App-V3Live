@@ -1,56 +1,38 @@
-name: Build and Deploy Flutter Web App
+name: Build Flutter Web
 
 on:
-  # Trigger on pushes to the master branch
   push:
-    branches: [ master ]
-
-  # Allow manual triggering
-  workflow_dispatch:
+    branches: [ master ]  # You can adjust this to trigger on specific branches
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install Flutter
-        uses: subosito/flutter-action@v2
+      - name: Set up Flutter
+        uses: suborbital/flutter@v1
         with:
-          channel: 'stable'
+          flutter-version: '3.x'  # Update with your desired Flutter version (e.g., '3.3.8')
 
-      - name: Get dependencies
+      - name: Install dependencies
         run: flutter pub get
 
-      - name: Enable web support
-        run: flutter config --enable-web
+      - name: Build web project (assuming web-demo is the entry point)
+        working-directory: ./web-demo
+        run: flutter build web
 
-      - name: Build web app
-        run: flutter build web -t web
-
-      - name: Upload build artifacts
+      - name: Archive build output (optional)
         uses: actions/upload-artifact@v3
         with:
-          name: web-build
-          path: ./web-demo/build/web
+          name: flutter-web-build
+          path: ./build/web  # Adjust path if your build output is located elsewhere
 
-  # Assuming you want to deploy to GitHub Pages (replace with your deployment step if needed)
-  deploy-to-github-pages (optional):
-    runs-on: ubuntu-latest
-    needs: build-and-deploy
-    if: github.event.type == 'push' && github.base_branch == 'master'  # Deploy only on push to master branch
-    environment:
-      name: production
-    steps:
-      - name: Download artifacts
-        uses: actions/download-artifact@v3
+      - name: Deploy to GitHub Pages (optional)  # Add deployment steps here
+        uses: actions/deploy-pages@v1  # Uncomment this line and configure deployment
+        if: success()  # Only deploy on successful builds
         with:
-          name: web-build
-
-      - name: Deploy to GitHub Pages (requires GH Pages token)
-        uses: actions/deploy-pages@v4
-        with:
-          token: ${{ secrets.MY_TOKEN }}
-          source: ./web-demo/build/web  # Path to your built web app
-          branch: gh-pages  # Target branch for deployment (replace if needed)
-          fail_on_errors: true  # Fail workflow on deployment errors
+          github-token: ${{ secrets.MY_TOKEN }}
+          local-dir: ./build/web  # Adjust path based on build output location
+          # Configure other deployment options as needed
