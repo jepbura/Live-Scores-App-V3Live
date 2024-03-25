@@ -20,7 +20,7 @@ dependencies:
   intl: ^0.18.0
   #Tools
   cupertino_icons: ^1.0.2
-  package_info_plus: ^4.0.2
+  package_info_plus: ^6.0.0
   # Use for State Management with BLoC pattern
   flutter_bloc: ^8.0.1
   equatable: ^2.0.3
@@ -33,7 +33,7 @@ dependencies:
   # Date
   shamsi_date: ^1.0.1
   #Splash
-  rive: ^0.11.2
+  rive: ^0.13.1
   #Code Generation
   freezed_annotation: ^2.0.3
   json_annotation: ^4.5.0
@@ -63,20 +63,20 @@ dependencies:
   # Use for responsive UI, set default size base on Mock Up
   flutter_screenutil: ^5.5.3+2
   # logger
-  logger: ^1.1.0
+  logger: ^2.2.0
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.1
   build_runner: ^2.4.4
   injectable_generator: ^2.1.6
   freezed: ^2.0.4
   dart_code_metrics: ^5.7.4
   lint: ^2.1.2
   bloc_test: ^9.0.3
-  http_mock_adapter: ^0.4.4
+  http_mock_adapter: ^0.6.1
   mockito: ^5.4.1
   flutter_launcher_icons: ^0.13.1
 
