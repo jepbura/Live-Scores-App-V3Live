@@ -30,6 +30,20 @@ If you encounter any cross-origin issues when accessing the web version, please 
 - [CORS Unblock for Chrome](https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino)
 - [CORS Unblock for Firefox](https://addons.mozilla.org/en-US/firefox/addon/cors-unblock/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 
+## Todo
+
+- [x] Clean Architecture(MVVM)
+- [x] Dependency Injection
+- [x] Build Runner
+- [x] WebSocket
+- [x] DIO
+- [x] State Management(Bloc)
+- [x] Rive
+- [x] Logger
+- [x] Shared Preferences
+- [x] Write Test(Mockito, Bloc test, ...)
+- [x] Localization
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
